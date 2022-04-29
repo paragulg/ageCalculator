@@ -1,0 +1,26 @@
+from time import sleep
+from pygame import mixer
+
+mixer.init()
+mixer.music.load('mp3/play.mp3')
+mixer.music.play(loops=-1)
+
+print('Калькулятор возраста')
+age = int(input('\nВведите свой возраст '))
+sleep(2)
+print('Загрузка.')
+sleep(1)
+print('Загрузка..')
+sleep(1)
+print('Загрузка...')
+sleep(3)
+print('Error\nПовторная загрузка')
+sleep(2)
+print('Загрузка.')
+sleep(1)
+print('Загрузка..')
+sleep(1)
+print('Загрузка...')
+sleep(3)
+print('Ваш возраст ' + str(age) + ' лет')
+input()
